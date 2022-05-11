@@ -21,7 +21,7 @@ function verificar(){
      }else{
         genero = 1
      }
-    if(anoN != anoAT && anoN > 1872 ){
+    if(anoN <= anoAT && anoN > 1872 ){
         var age = anoAT - anoN 
     switch(genero){
         case 0:
